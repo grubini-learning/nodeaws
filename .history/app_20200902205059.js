@@ -5,8 +5,8 @@ app.get('/', (req, res, next) => {
     res.send('Welcome to papa!!');
 });
 
-const port = process.env.port || 3000;
-app.listen(port, () => {
+const port = process.env.port || 3000
+app.listen(3000, () => {
     console.log('server running at port 3k');
 });
 //hey
